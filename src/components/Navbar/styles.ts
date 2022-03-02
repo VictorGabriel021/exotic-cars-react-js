@@ -15,6 +15,7 @@ export const NavContent = styled.div`
 `;
 
 export const NavLogoText = styled.p`
+  margin-top: 20px;
   color: #313136;
   font-size: 16px;
   @media (max-width: 425px) {
@@ -22,7 +23,8 @@ export const NavLogoText = styled.p`
   }
 `;
 
-export const NavLogoTitle = styled(NavLogoText)`
+export const NavLogoTitle = styled.p`
+  color: #313136;
   font-weight: bold;
   font-size: 24px;
   margin-right: 5px;
@@ -34,6 +36,7 @@ export const NavLogoTitle = styled(NavLogoText)`
 export const Div = styled.div`
   display: flex;
   align-items: center;
+  margin-left: 15px;
 `;
 
 export const ItemsMiddleText = styled.p`
@@ -43,7 +46,9 @@ export const ItemsMiddleText = styled.p`
 
 export const NavContentItemsMiddle = styled(Div)`
   flex: 2;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: #f3f1fc;
+  border-radius: 50px;
 
   @media (max-width: 1023px) {
     display: none;
@@ -56,8 +61,11 @@ export const NavContentItems = styled(Div)`
 `;
 
 export const SearchCard = styled.div`
-  padding: 8px;
+  margin-left: 15px;
+  margin-right: 5px;
+  padding: 8px 10px;
   border-radius: 50%;
+  background-color: #fff;
   box-shadow: 0px 8px 15px #00000014;
 `;
 
