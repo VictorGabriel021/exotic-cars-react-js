@@ -1,22 +1,18 @@
+import { useEffect, useState } from "react";
+
 import {
   CatalogContainer,
   ScrollTopContainer,
   ScrollTopContent,
 } from "./styles";
 
-import { ReactComponent as ScrollTopImg } from "../../assets/images/scrollTop.svg";
+import { ReactComponent as ScrollTopImg } from "@assets/images/scrollTop.svg";
 
-import CatalogItem from "../../components/CatalogItem";
+import cars from "@data/cars.json";
 
-import cars from "../../data/cars.json";
+import { ICarsResponse } from "@interfaces/carsInterfaces";
 
-import { ICarsResponse } from "../../interfaces/carsInterfaces";
-
-import Error from "../../components/Error";
-
-import { useEffect, useState } from "react";
-
-import Loading from "../../components/Loading";
+import { CatalogItem, Error, Loading } from "@components/index";
 
 const Catalog = () => {
   const [carItem, setCarItem] = useState<ICarsResponse[]>([]);
