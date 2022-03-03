@@ -20,6 +20,7 @@ export const NavLogoText = styled.p`
   font-size: 16px;
   @media (max-width: 425px) {
     font-size: 12px;
+    margin: 0;
   }
 `;
 

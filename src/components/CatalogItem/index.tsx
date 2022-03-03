@@ -7,28 +7,41 @@ import {
   CarDollar,
   CarPrice,
   CarPricePerDay,
+  CarPriceBookText,
+  HiDotsHorizontalColor,
+  CarImage,
 } from "./styles";
 
 import { HiDotsHorizontal } from "react-icons/hi";
 
-const CatalogItem = () => {
+import { ICarsResponse } from "../../interfaces/carsInterfaces";
+
+type Props = {
+  car: ICarsResponse;
+};
+
+const CatalogItem = ({ car }: Props) => {
+  const { id, brand, model, price, imageShowcase } = car;
+
   return (
     <CatalogCard>
       <CarInfoAlign>
         <div>
-          <CarBrandText>Ferrari</CarBrandText>
-          <CarModelText>California</CarModelText>
+          <CarBrandText>{brand}</CarBrandText>
+          <CarModelText>{model}</CarModelText>
         </div>
-        <HiDotsHorizontal color="#C8C8CA" size={24} />
+        <HiDotsHorizontalColor>
+          <HiDotsHorizontal size={24} />
+        </HiDotsHorizontalColor>
       </CarInfoAlign>
-      <img
-        src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=a306573a-1bce-448f-a6a6-923b1affe4cf&api_key=CometServer1&access_token=1646263521_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_8b87789e2099f748008b167b817cbf7199c4b9fb"
-        alt="car"
-      />
+      <CarImage src={imageShowcase} alt={`Car:${id}`} />
       <CarPriceAlign>
-        <CarDollar>$</CarDollar>
-        <CarPrice>725</CarPrice>
-        <CarPricePerDay>/day</CarPricePerDay>
+        <CarPriceBookText>Book now</CarPriceBookText>
+        <CarPriceAlign>
+          <CarDollar>$</CarDollar>
+          <CarPrice>{price}</CarPrice>
+          <CarPricePerDay>/day</CarPricePerDay>
+        </CarPriceAlign>
       </CarPriceAlign>
     </CatalogCard>
   );

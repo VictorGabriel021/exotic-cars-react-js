@@ -1,8 +1,5 @@
 export interface ICars {
   id: string;
-  model: string;
-  brand: string;
-  price: number;
   image: string;
   color: string;
 }
@@ -10,6 +7,8 @@ export interface ICars {
 export interface ICarsResponse {
   id: string;
   cars: ICars[];
-  type: string;
+  model: string;
+  brand: string;
+  price: number;
   imageShowcase: string;
 }

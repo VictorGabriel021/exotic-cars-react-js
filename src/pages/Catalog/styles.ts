@@ -10,3 +10,30 @@ export const CatalogContainer = styled.div`
     padding: 25px 0;
   }
 `;
+
+export const ScrollTopContainer = styled.div`
+  position: fixed;
+  right: 0;
+  top: 50vh;
+
+  @media (min-width: 1500px) {
+    top: unset;
+  }
+`;
+
+export const ScrollTopContent = styled.div`
+  svg {
+    cursor: pointer;
+
+    &:hover {
+      circle {
+        fill: #7b89f4;
+      }
+    }
+
+    @media (max-width: 500px) {
+      height: 80px;
+      width: 80px;
+    }
+  }
+`;

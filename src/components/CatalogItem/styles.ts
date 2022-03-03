@@ -1,17 +1,34 @@
 import styled from "styled-components";
 
+export const HiDotsHorizontalColor = styled.div`
+  color: #c8c8ca;
+`;
+
+export const CarPriceBookText = styled.p`
+  color: transparent;
+`;
+
 export const CatalogCard = styled.div`
   background-color: #f8f8fa;
   border-radius: 20px;
   padding: 20px;
   margin: 12px 8px;
-  max-width: 250px;
+  width: 250px;
+  height: 100%;
   cursor: pointer;
   transition: transform 1s;
 
   &:hover {
     transform: scale(1.1);
-    background-color: #f0f5fd;
+    background: linear-gradient(52deg, #a1a7f4, #e6d3f1);
+
+    ${CarPriceBookText} {
+      color: white;
+    }
+
+    ${HiDotsHorizontalColor} {
+      color: #313136;
+    }
   }
 `;
 
@@ -32,10 +49,16 @@ export const CarBrandText = styled(CarModelText)`
   font-weight: bold;
 `;
 
+export const CarImage = styled.img`
+  height: 80px;
+  width: 100%;
+  object-fit: scale-down;
+`;
+
 export const CarPriceAlign = styled.div`
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 `;
 
 const CarPriceText = styled.p`
@@ -45,14 +68,15 @@ const CarPriceText = styled.p`
 `;
 
 export const CarDollar = styled(CarPriceText)`
-  margin-top: 2px;
+  margin-top: 0;
 `;
 
 export const CarPrice = styled(CarPriceText)`
   font-size: 24px;
+  margin: 0;
 `;
 
 export const CarPricePerDay = styled(CarPriceText)`
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   font-weight: 400;
 `;

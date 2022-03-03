@@ -7,7 +7,13 @@ function App() {
   return (
     <>
       <Navbar />
-      <div style={{ maxWidth: 1440, margin: "0px auto" }}>
+      <div
+        style={{
+          maxWidth: 1440,
+          margin: "0px auto",
+          height: "calc(100% - 100px)",
+        }}
+      >
         <Catalog />
       </div>
     </>
