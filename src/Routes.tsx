@@ -1,8 +1,8 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import { Navbar, BodyContainer } from "@components/index";
 
-import Catalog from "@pages/Catalog";
+import { Catalog, CatalogDetails, NotFound } from "@pages/index";
 
 const AppRoutes = () => {
   return (
@@ -10,7 +10,10 @@ const AppRoutes = () => {
       <Navbar />
       <BodyContainer>
         <Routes>
-          <Route path="/" element={<Catalog />} />
+          <Route path="/" element={<Navigate replace to="/catalog" />} />
+          <Route path="/catalog" element={<Catalog />} />
+          <Route path="/catalog/:catalogId" element={<CatalogDetails />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BodyContainer>
     </BrowserRouter>
