@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
+import { Colors } from "@constants/index";
+
 export const Container = styled.div`
   background: linear-gradient(125deg, #fff, #d8d7d7);
-  height: 100%;
+
+  @media (min-height: 1220px) {
+    height: 100%;
+  }
 `;
 
 export const Content = styled.div`
@@ -34,7 +39,7 @@ export const CarLogo = styled.img`
 `;
 
 export const TextBold = styled.h1`
-  color: #313136;
+  color: ${Colors.primary};
   font-size: 50px;
   font-weight: bold;
 
@@ -44,7 +49,7 @@ export const TextBold = styled.h1`
 `;
 
 export const CarInfoPrice = styled.p`
-  color: #313136;
+  color: ${Colors.primary};
   font-size: 40px;
 
   @media (max-width: 1200px) {
@@ -80,12 +85,15 @@ export const CarColorText = styled(CarInfoPrice)`
 
 export const CarBookContainer = styled(CarInfoContainer)`
   justify-content: center;
+  margin-top: 40px;
 `;
 
 export const CarImg = styled.img`
-  width: 80%;
+  width: 75%;
+  height: 500px;
+  object-fit: contain;
 
   @media (max-width: 1200px) {
-    margin: 20px 0;
+    height: auto;
   }
 `;

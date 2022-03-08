@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { Colors } from "@constants/index";
+
 export const Container = styled.div`
   max-width: 1440px;
   margin: 0 auto;
@@ -50,7 +52,7 @@ export const CarImage = styled.img`
 `;
 
 const Arrow = styled.div`
-  background-color: #313136;
+  background-color: ${Colors.primary};
   border-radius: 50%;
   position: absolute;
   z-index: 10;

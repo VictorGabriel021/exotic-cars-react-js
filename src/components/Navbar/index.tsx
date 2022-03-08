@@ -12,16 +12,22 @@ import {
   ItemsMiddleText,
 } from "./styles";
 
+import { Link } from "react-router-dom";
+
 import { IoLocationSharp, IoCalendarSharp, IoSearch } from "react-icons/io5";
+
+import { Colors } from "@constants/index";
 
 const Navbar = () => {
   return (
     <NavContainer>
       <NavContent>
-        <NavContentItems>
-          <NavLogoTitle>EXOTIC</NavLogoTitle>
-          <NavLogoText>CARS</NavLogoText>
-        </NavContentItems>
+        <Link to="/" style={{ textDecoration: "none", flex: 1 }}>
+          <NavContentItems>
+            <NavLogoTitle>EXOTIC</NavLogoTitle>
+            <NavLogoText>CARS</NavLogoText>
+          </NavContentItems>
+        </Link>
 
         <NavContentItemsMiddle>
           <Div>
@@ -37,7 +43,7 @@ const Navbar = () => {
             <ItemsMiddleText> 12/12/2021</ItemsMiddleText>
           </Div>
           <SearchCard>
-            <IoSearch color="#7b89f4" size={24} />
+            <IoSearch color={Colors.secundary} size={24} />
           </SearchCard>
         </NavContentItemsMiddle>
 

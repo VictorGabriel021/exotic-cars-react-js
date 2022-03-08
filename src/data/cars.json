@@ -5,47 +5,39 @@
       {
         "id": "01",
         "color": "Red",
-        "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=a306573a-1bce-448f-a6a6-923b1affe4cf&api_key=CometServer1&access_token=1646438281_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_dd81f73f9979253b6fa532ca8f1623489ed35de3"
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/ferrariR%402x.png?raw=true"
       },
       {
         "id": "02",
         "color": "Yellow",
-        "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=16370e0f-b5e6-4be3-955c-80e3e0879774&api_key=CometServer1&access_token=1646263521_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_8b87789e2099f748008b167b817cbf7199c4b9fb"
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/ferrariY%402x.png?raw=true"
       },
       {
         "id": "03",
         "color": "Gray",
-        "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=ae932fe6-95bf-48d4-8b9c-529d8d1db75c&api_key=CometServer1&access_token=1646263521_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_8b87789e2099f748008b167b817cbf7199c4b9fb"
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/ferrariG%402x.png?raw=true"
       }
     ],
     "brand": "Ferrari",
     "model": "California",
     "price": 725,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=a306573a-1bce-448f-a6a6-923b1affe4cf&api_key=CometServer1&access_token=1646438281_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_dd81f73f9979253b6fa532ca8f1623489ed35de3"
+    "imageShowcase": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/ferrari_californiaShowCase.png?raw=true",
+    "brandLogo": "https://guiadacidadesc.com.br/wp-content/uploads/2020/10/Logo-Ferrari.png"
   },
   {
     "id": "02",
     "cars": [
       {
         "id": "01",
-        "color": "Azul Escuro",
-        "image": ""
-      },
-      {
-        "id": "02",
-        "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Gray",
-        "image": ""
+        "color": "Dark Blue",
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/bentley-continentalBlue.png?raw=true"
       }
     ],
     "brand": "Bentley",
     "model": "CONTINENTAL GT",
     "price": 825,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=52ac8664-ef69-4279-a4f0-e31ed8a28c71&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
+    "imageShowcase": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/Mask%20Group%208%402x.png?raw=true",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/pt/3/34/Chevrolet_logo.png"
   },
   {
     "id": "03",
@@ -53,119 +45,74 @@
       {
         "id": "01",
         "color": "White",
-        "image": ""
-      },
-      {
-        "id": "02",
-        "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Gray",
-        "image": ""
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/bmwWhite.png?raw=true"
       }
     ],
     "brand": "BMW",
     "model": "M1 COMPETITION",
     "price": 825,
-    "imageShowcase": "@assets/images/ferrari_californiaShowCase.png"
+    "imageShowcase": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/bmwShowCase%402x.png?raw=true",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/pt/3/34/Chevrolet_logo.png"
   },
   {
     "id": "04",
     "cars": [
       {
         "id": "01",
-        "color": "Red",
-        "image": ""
-      },
-      {
-        "id": "02",
         "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Gray",
-        "image": ""
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/alfa-romeoYellow.png?raw=true"
       }
     ],
     "brand": "Alfa Romeo",
     "model": "4C SPIDER",
     "price": 825,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=645abd6d-97f6-4795-a465-d09e4650b698&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
+    "imageShowcase": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/alfa%20Romeo%402x.png?raw=true",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/pt/3/34/Chevrolet_logo.png"
   },
   {
     "id": "05",
     "cars": [
       {
         "id": "01",
-        "color": "Red",
-        "image": ""
-      },
-      {
-        "id": "02",
-        "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Gray",
-        "image": ""
+        "color": "Silver",
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/mercedesGray.png?raw=true"
       }
     ],
-    "brand": "Ferrari",
-    "model": "CALIFORNIA",
+    "brand": "Mercedes-benz",
+    "model": "AMG GTS",
     "price": 725,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=ef75889c-beb7-4c66-9b0a-4830aa0c6396&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
+    "imageShowcase": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/mercedes_benzShowCase%402x.png?raw=true",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/pt/3/34/Chevrolet_logo.png"
   },
   {
     "id": "06",
     "cars": [
       {
         "id": "01",
-        "color": "Gray",
-        "image": ""
-      },
-      {
-        "id": "02",
-        "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Gray",
-        "image": ""
+        "color": "Black",
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/porscheBlack.png?raw=true"
       }
     ],
-    "brand": "Mercedes-benz",
-    "model": "AMG GTS",
+    "brand": "Porsche",
+    "model": "911 TURBO S",
     "price": 725,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=e74801b0-88d8-4e3f-b0a2-f24a0c4c1137&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
+    "imageShowcase": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/porscheShowCase6%402x.png?raw=true",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/pt/3/34/Chevrolet_logo.png"
   },
   {
     "id": "07",
     "cars": [
       {
         "id": "01",
-        "color": "Red",
-        "image": ""
-      },
-      {
-        "id": "02",
-        "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Gray",
-        "image": ""
+        "color": "Black",
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/corvetteBlack.png?raw=true"
       }
     ],
-    "brand": "Porsche",
-    "model": "911 TURBO S",
-    "price": 725,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=e74801b0-88d8-4e3f-b0a2-f24a0c4c1137&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
+    "brand": "Chevrolet",
+    "model": "CORVETT",
+    "price": 925,
+    "imageShowcase": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/chevroletShowCase%402x.png?raw=true",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/pt/3/34/Chevrolet_logo.png"
   },
   {
     "id": "08",
@@ -173,190 +120,73 @@
       {
         "id": "01",
         "color": "Red",
-        "image": ""
-      },
-      {
-        "id": "02",
-        "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Gray",
-        "image": ""
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/rolls_royceRed.png?raw=true"
       }
     ],
-    "brand": "Chevrolet",
-    "model": "CORVETT",
-    "price": 925,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=6b25c431-6076-487c-bcf3-a20a7c38742f&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
+    "brand": "Rolls-Royce",
+    "model": "WRAITH",
+    "price": 725,
+    "imageShowcase": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/rolls_royceShowCase%402x.png?raw=true",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/pt/3/34/Chevrolet_logo.png"
   },
   {
     "id": "09",
     "cars": [
       {
         "id": "01",
-        "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "02",
-        "color": "Red",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Gray",
-        "image": ""
+        "color": "Orange",
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/mcLarenOrange.png?raw=true"
       }
     ],
-    "brand": "Porsche",
-    "model": "911 GT3 RS",
-    "price": 825,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=c91c7fd6-0793-4142-a268-c632c185f28d&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
+    "brand": "Mclaren",
+    "model": "P1 GTR",
+    "price": 925,
+    "imageShowcase": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/mclarenShowCase%402x.png?raw=true",
+    "brandLogo": "https://logosmarcas.net/wp-content/uploads/2021/09/McLaren-Logo.png"
   },
   {
     "id": "10",
     "cars": [
       {
         "id": "01",
-        "color": "Red",
-        "image": ""
+        "color": "White",
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/lamborghiniWhite.png?raw=true"
       },
       {
         "id": "02",
-        "color": "Yellow",
-        "image": ""
+        "color": "Green",
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/lamborghiniGreen.png?raw=true"
       },
       {
         "id": "03",
         "color": "Gray",
-        "image": ""
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/lamborghiniGray.png?raw=true"
       }
     ],
-    "brand": "Rolls-Royce",
-    "model": "WRAITH",
-    "price": 725,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=0ca32b8d-3324-49c9-8406-871c561069c0&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
+    "brand": "Lamborghini",
+    "model": "AVENTADOR",
+    "price": 925,
+    "imageShowcase": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/lamborghiniShowCase%402x.png?raw=true",
+    "brandLogo": "https://i.pinimg.com/originals/af/df/27/afdf276a4c9cf344d01c45e9d6241a66.png"
   },
   {
     "id": "11",
     "cars": [
       {
         "id": "01",
-        "color": "Gray",
-        "image": ""
+        "color": "White and Black",
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/bugattiWhiteBlack.png?raw=true"
       },
       {
         "id": "02",
-        "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Red",
-        "image": ""
-      }
-    ],
-    "brand": "Porsche",
-    "model": "911 TURBO S",
-    "price": 725,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=8dee52f7-bc74-45f2-8f1b-56838ca6f2dd&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
-  },
-  {
-    "id": "12",
-    "cars": [
-      {
-        "id": "01",
-        "color": "Orange",
-        "image": ""
-      },
-      {
-        "id": "02",
-        "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Gray",
-        "image": ""
-      }
-    ],
-    "brand": "Porsche",
-    "model": "911 TURBO S",
-    "price": 725,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=9d5eb4fb-c902-4dae-a752-297bad84c10b&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
-  },
-  {
-    "id": "13",
-    "cars": [
-      {
-        "id": "01",
-        "color": "Red",
-        "image": ""
-      },
-      {
-        "id": "02",
-        "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Gray",
-        "image": ""
-      }
-    ],
-    "brand": "Mclaren",
-    "model": "P1 GTR",
-    "price": 925,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=e38d629d-6fe3-441e-9ba0-0ae71e57aeeb&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
-  },
-  {
-    "id": "14",
-    "cars": [
-      {
-        "id": "01",
-        "color": "Orange",
-        "image": ""
-      },
-      {
-        "id": "02",
-        "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Gray",
-        "image": ""
-      }
-    ],
-    "brand": "Lamborghini",
-    "model": "AVENTADOR",
-    "price": 925,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=559ba591-4bb3-4e94-acbe-c2dd0cd6f565&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
-  },
-  {
-    "id": "15",
-    "cars": [
-      {
-        "id": "01",
-        "color": "Red",
-        "image": ""
-      },
-      {
-        "id": "02",
-        "color": "Yellow",
-        "image": ""
-      },
-      {
-        "id": "03",
-        "color": "Gray",
-        "image": ""
+        "color": "Black and White",
+        "image": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/bugattiWhiteBlack.png?raw=true"
       }
     ],
     "brand": "Bugatti",
     "model": "VEYRON SPYDER",
     "price": 925,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=8ae7b079-7479-4195-be46-5d2de1bafa5a&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
+    "imageShowcase": "https://github.com/VictorGabriel021/exotic-cars-react-js/blob/master/src/assets/images/bugattiShowCase%402x.png?raw=true",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bugatti_Logo.png"
   }
 ]

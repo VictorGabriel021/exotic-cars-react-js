@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import {
   Container,
   Active,
@@ -8,6 +6,8 @@ import {
   ArrowNext,
   ArrowPrev,
 } from "./styles";
+
+import { useState } from "react";
 
 import Slider from "react-slick";
 
@@ -40,8 +40,8 @@ const Carousel = ({ onChangeCar, cars }: Props) => {
   };
 
   const changeCarHandler = (current: any, next: any) => {
-    setImageIndex(next);
     onChangeCar(next);
+    setImageIndex(next);
   };
 
   const settings: any = {

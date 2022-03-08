@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { Colors } from "@constants/index";
+
 export const CatalogContainer = styled.div`
   padding: 25px;
   display: flex;
@@ -27,7 +29,7 @@ export const ScrollTopContent = styled.div`
 
     &:hover {
       circle {
-        fill: #7b89f4;
+        fill: ${Colors.secundary};
       }
     }
 

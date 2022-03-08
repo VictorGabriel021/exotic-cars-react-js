@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { Colors } from "@constants/index";
+
 export const HiDotsHorizontalColor = styled.div`
   color: #c8c8ca;
 `;
@@ -27,7 +29,7 @@ export const CatalogCard = styled.div`
     }
 
     ${HiDotsHorizontalColor} {
-      color: #313136;
+      color: ${Colors.primary};
     }
   }
 `;
@@ -41,7 +43,7 @@ export const CarModelText = styled.p`
   text-transform: uppercase;
   font-size: 16px;
   line-height: 6px;
-  color: #313136;
+  color: ${Colors.primary};
 `;
 
 export const CarBrandText = styled(CarModelText)`
@@ -64,7 +66,7 @@ export const CarPriceAlign = styled.div`
 `;
 
 const CarPriceText = styled.p`
-  color: #313136;
+  color: ${Colors.primary};
   font-size: 14px;
   font-weight: bold;
 `;

@@ -1,5 +1,3 @@
-import { useParams } from "react-router-dom";
-
 import {
   Container,
   Content,
@@ -15,16 +13,24 @@ import {
   CarImg,
 } from "./styles";
 
+import { useState, useEffect } from "react";
+
+import { useParams, Link } from "react-router-dom";
+
 import Button from "react-bootstrap/Button";
 
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
 import cars from "@data/cars.json";
 
-import Error from "@components/Error";
-import Carousel from "@components/Carousel";
-import { ICarsResponse, ICars } from "@interfaces/carsInterfaces";
-import { useState } from "react";
+import { Error, Carousel } from "@components/index";
+
+import {
+  ICarsResponse,
+  ICars,
+  defaultValuesICarsResponse,
+  defaultValuesICars,
+} from "@interfaces/carsInterfaces";
 
 type ParamsType = {
   catalogId: string;
@@ -32,28 +38,39 @@ type ParamsType = {
 
 const CatalogDetails = () => {
   const { catalogId } = useParams<ParamsType>();
-  const carInfo = cars.find((car) => car.id === catalogId);
-  let { brand, model, price, cars: carsList } = carInfo as ICarsResponse;
 
-  const [carSelected, setCarSelected] = useState(carsList[0]);
+  const [carInfo, setCarInfo] = useState<ICarsResponse>(
+    defaultValuesICarsResponse
+  );
+  const [carSelected, setCarSelected] = useState<ICars>(defaultValuesICars);
+  const [isError, setIsError] = useState(false);
 
   const changeCarHandler = (value: number) => {
-    const newCar = carsList.find((item, index) => index === value);
+    const newCar = carInfo.cars.find((item, index) => index === value);
     setCarSelected(newCar as ICars);
   };
 
-  if (!carInfo) {
+  useEffect(() => {
+    const response = cars.find((car) => car.id === catalogId);
+    if (response) {
+      setCarInfo(response);
+      setCarSelected(response.cars[0]);
+    } else {
+      setIsError(true);
+    }
+  }, [catalogId]);
+
+  if (isError) {
     return <Error message="Erro ao carregar as informações do veículo :(" />;
   }
+
+  const { brand, brandLogo, model, price, cars: carsList } = carInfo;
 
   return (
     <Container>
       <Content>
         <CarInfoContainer>
-          <CarLogo
-            src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=2e6ec02b-e1ee-407c-9d5e-f6c7c71ae782&api_key=CometServer1&access_token=1646438281_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_dd81f73f9979253b6fa532ca8f1623489ed35de3"
-            alt="logo"
-          />
+          <CarLogo src={brandLogo} alt="logo" />
           <CarInfoContent>
             <TextBold>
               {brand} {model}
@@ -62,10 +79,12 @@ const CatalogDetails = () => {
           </CarInfoContent>
         </CarInfoContainer>
         <CarImageContainer>
-          <Button variant="dark-outline">
-            <BsArrowLeft size={28} style={{ marginRight: 10 }} />
-            Back to catalog
-          </Button>
+          <Link to="/">
+            <Button variant="dark-outline">
+              <BsArrowLeft size={28} style={{ marginRight: 10 }} />
+              Back to catalog
+            </Button>
+          </Link>
           <CarImg src={carSelected.image} alt="car" />
           <AlignCarNumber>
             <TextBold>{carSelected.id}</TextBold>
@@ -78,7 +97,6 @@ const CatalogDetails = () => {
             <BsArrowRight size={28} style={{ marginLeft: 10 }} />
           </Button>
         </CarBookContainer>
-
         <Carousel onChangeCar={changeCarHandler} cars={carsList} />
       </Content>
     </Container>

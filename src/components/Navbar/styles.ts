@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { Colors } from "@constants/index";
+
 export const NavContainer = styled.div`
   height: 100px;
   box-shadow: 0px 8px 25px #00000014;
@@ -16,7 +18,7 @@ export const NavContent = styled.div`
 
 export const NavLogoText = styled.p`
   margin-top: 3px;
-  color: #313136;
+  color: ${Colors.primary};
   font-size: 16px;
   @media (max-width: 425px) {
     font-size: 12px;
@@ -25,7 +27,7 @@ export const NavLogoText = styled.p`
 `;
 
 export const NavLogoTitle = styled.p`
-  color: #313136;
+  color: ${Colors.primary};
   font-weight: bold;
   font-size: 24px;
   margin-right: 5px;
@@ -71,7 +73,7 @@ export const SearchCard = styled.div`
 `;
 
 export const SignUpText = styled.p`
-  color: #7b89f4;
+  color: ${Colors.secundary};
   cursor: pointer;
   font-weight: bold;
   font-size: 18px;
@@ -88,16 +90,16 @@ export const SignInButton = styled.button`
   cursor: pointer;
   font-size: 18px;
   background-color: white;
-  border: 1px solid #7b89f4;
+  border: 1px solid ${Colors.secundary};
   border-radius: 15px;
   padding: 10px 20px;
   margin-left: 20px;
-  color: #7b89f4;
+  color: ${Colors.secundary};
   font-weight: bold;
 
   &:hover {
     color: white;
-    background-color: #7b89f4;
+    background-color: ${Colors.secundary};
   }
   @media (max-width: 425px) {
     font-size: 12px;

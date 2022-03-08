@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { Colors } from "@constants/index";
+
 export const LoadingSpinnerContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -15,8 +17,8 @@ export const LoadingSpinner = styled.div`
     height: 120px;
     margin: 8px;
     border-radius: 50%;
-    border: 6px solid #7b89f4;
-    border-color: #7b89f4 transparent #7b89f4 transparent;
+    border: 6px solid ${Colors.secundary};
+    border-color: ${Colors.secundary} transparent ${Colors.secundary} transparent;
     animation: spinner 1.2s linear infinite;
   }
   @keyframes spinner {

@@ -11,4 +11,21 @@ export interface ICarsResponse {
   brand: string;
   price: number;
   imageShowcase: string;
+  brandLogo: string;
 }
+
+export const defaultValuesICars = {
+  id: "",
+  image: "",
+  color: "",
+};
+
+export const defaultValuesICarsResponse = {
+  id: "",
+  cars: [],
+  model: "",
+  brand: "",
+  price: 0,
+  imageShowcase: "",
+  brandLogo: "",
+};

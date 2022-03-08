@@ -12,11 +12,11 @@ import {
   CarImage,
 } from "./styles";
 
+import { useNavigate } from "react-router-dom";
+
 import { HiDotsHorizontal } from "react-icons/hi";
 
 import { ICarsResponse } from "@interfaces/carsInterfaces";
-
-import { useNavigate } from "react-router-dom";
 
 type Props = {
   car: ICarsResponse;
@@ -42,7 +42,7 @@ const CatalogItem = ({ car }: Props) => {
           <HiDotsHorizontal size={24} />
         </HiDotsHorizontalColor>
       </CarInfoAlign>
-      <CarImage src='assets/images/ferrari_californiaShowCase.png' alt={`Car:${id}`} />
+      <CarImage src={imageShowcase} alt={`Car:${id}`} />
       <CarPriceAlign>
         <CarPriceBookText>Book now</CarPriceBookText>
         <CarPriceAlign>
