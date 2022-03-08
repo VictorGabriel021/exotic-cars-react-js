@@ -15,7 +15,7 @@ export const NavContent = styled.div`
 `;
 
 export const NavLogoText = styled.p`
-  margin-top: 20px;
+  margin-top: 3px;
   color: #313136;
   font-size: 16px;
   @media (max-width: 425px) {

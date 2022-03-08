@@ -47,9 +47,11 @@ export const CarModelText = styled.p`
 export const CarBrandText = styled(CarModelText)`
   text-transform: none;
   font-weight: bold;
+  line-height: 40px;
 `;
 
 export const CarImage = styled.img`
+  margin-top: 15px;
   height: 80px;
   width: 100%;
   object-fit: scale-down;
@@ -68,15 +70,14 @@ const CarPriceText = styled.p`
 `;
 
 export const CarDollar = styled(CarPriceText)`
-  margin-top: 0;
+  margin-bottom: 12px;
 `;
 
 export const CarPrice = styled(CarPriceText)`
   font-size: 24px;
-  margin: 0;
 `;
 
 export const CarPricePerDay = styled(CarPriceText)`
-  margin-bottom: 2px;
+  margin-top: 12px;
   font-weight: 400;
 `;

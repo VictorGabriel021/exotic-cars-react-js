@@ -1,11 +1,15 @@
-import { Message } from "./styles";
+import { Container, Message } from "./styles";
 
 type Props = {
   message: string;
 };
 
 const Error = ({ message }: Props) => {
-  return <Message>{message}</Message>;
+  return (
+    <Container>
+      <Message>{message}</Message>
+    </Container>
+  );
 };
 
 export default Error;

@@ -5,7 +5,7 @@
       {
         "id": "01",
         "color": "Red",
-        "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=90a993c7-476c-4f87-ac0a-db43b447503f&api_key=CometServer1&access_token=1646263521_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_8b87789e2099f748008b167b817cbf7199c4b9fb"
+        "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=a306573a-1bce-448f-a6a6-923b1affe4cf&api_key=CometServer1&access_token=1646438281_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_dd81f73f9979253b6fa532ca8f1623489ed35de3"
       },
       {
         "id": "02",
@@ -21,7 +21,7 @@
     "brand": "Ferrari",
     "model": "California",
     "price": 725,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=a306573a-1bce-448f-a6a6-923b1affe4cf&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
+    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=a306573a-1bce-448f-a6a6-923b1affe4cf&api_key=CometServer1&access_token=1646438281_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_dd81f73f9979253b6fa532ca8f1623489ed35de3"
   },
   {
     "id": "02",
@@ -69,7 +69,7 @@
     "brand": "BMW",
     "model": "M1 COMPETITION",
     "price": 825,
-    "imageShowcase": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:699a6983-35c7-4662-bc81-5c626742102d;revision=0?component_id=0e96bae4-f346-4ac6-b7e5-d78646348055&api_key=CometServer1&access_token=1646351145_urn%3Aaaid%3Asc%3AUS%3A699a6983-35c7-4662-bc81-5c626742102d%3Bpublic_e231d45e1d081808c41a004b645fb80485ecf5ec"
+    "imageShowcase": "@assets/images/ferrari_californiaShowCase.png"
   },
   {
     "id": "04",

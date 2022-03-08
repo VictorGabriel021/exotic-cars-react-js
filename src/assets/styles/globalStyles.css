@@ -1,0 +1,25 @@
+.btn-dark {
+  background-color: #313136;
+  color: white;
+  padding: 10px 5px;
+  border-radius: 40px;
+  width: 200px;
+}
+
+.btn-dark:hover {
+  background-color: #18181a;
+  color: white;
+}
+
+.btn-dark-outline {
+  border: solid 1px #313136;
+  color: #313136;
+  padding: 10px 5px;
+  border-radius: 40px;
+  width: 200px;
+}
+
+.btn-dark-outline:hover {
+  background-color: #313136;
+  color: white;
+}

@@ -14,7 +14,9 @@ import {
 
 import { HiDotsHorizontal } from "react-icons/hi";
 
-import { ICarsResponse } from "../../interfaces/carsInterfaces";
+import { ICarsResponse } from "@interfaces/carsInterfaces";
+
+import { useNavigate } from "react-router-dom";
 
 type Props = {
   car: ICarsResponse;
@@ -23,8 +25,14 @@ type Props = {
 const CatalogItem = ({ car }: Props) => {
   const { id, brand, model, price, imageShowcase } = car;
 
+  const navigation = useNavigate();
+
+  const navigateToDetailsHandler = (id: string) => {
+    navigation(id);
+  };
+
   return (
-    <CatalogCard>
+    <CatalogCard onClick={navigateToDetailsHandler.bind(null, id)}>
       <CarInfoAlign>
         <div>
           <CarBrandText>{brand}</CarBrandText>
@@ -34,7 +42,7 @@ const CatalogItem = ({ car }: Props) => {
           <HiDotsHorizontal size={24} />
         </HiDotsHorizontalColor>
       </CarInfoAlign>
-      <CarImage src={imageShowcase} alt={`Car:${id}`} />
+      <CarImage src='assets/images/ferrari_californiaShowCase.png' alt={`Car:${id}`} />
       <CarPriceAlign>
         <CarPriceBookText>Book now</CarPriceBookText>
         <CarPriceAlign>
